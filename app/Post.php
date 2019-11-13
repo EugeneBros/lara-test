@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Auth;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Database\Eloquent\Model;

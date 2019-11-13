@@ -316,6 +316,7 @@ article {
 
 .post-thumb img {
     width: 100%;
+    max-height: 450px;
 }
 
 a.more-link {
@@ -504,7 +505,7 @@ about me
 }
 
 .about-me-widget {
-    background: url(assets/images/me-cover.jpg) no-repeat;
+    background: url(/images/me-cover.jpg) no-repeat;
     background-size: 100%;
     background-color: #fff;
 }
@@ -539,7 +540,7 @@ about me
 subscribe newsletter
 ================*/
 
-.news-letter input[type="email"] {
+.news-letter input.subscribe-input {
     width: 100%;
     margin-bottom: 14px;
     border: 1px solid #eeeeee;
@@ -616,7 +617,7 @@ popular post
 
 .popular-img img {
     width: 100%;
-
+    max-height: 190px;
 }
 
 .popular-img {
@@ -761,6 +762,7 @@ recent post
 
 .media .popular-img img {
     width: auto;
+    max-height: 190px;
 }
 
 /*===================
@@ -1304,7 +1306,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea {
 }
 
 .coming-soon {
-    background: url(assets/images/coming-soon.jpg) no-repeat;
+    background: url(/images/coming-soon.jpg) no-repeat;
     background-size: cover;
     position: relative;
     height: 100%;
@@ -1559,7 +1561,7 @@ header one
 header two
 ==========*/
 .header-bg {
-    background: url(assets/images/header-3-bg.jpg) no-repeat scroll 0 0;
+    background: url(/images/header-3-bg.jpg) no-repeat scroll 0 0;
     background-size: cover;
 }
 

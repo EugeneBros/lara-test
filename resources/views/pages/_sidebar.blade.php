@@ -7,6 +7,7 @@
             <form action="/subscribe" method="post">
                 {{csrf_field()}}
                 <input  type="text"
+                        class="subscribe-input"
                         placeholder="Your email address"
                         name="email">
                 <input type="submit"
